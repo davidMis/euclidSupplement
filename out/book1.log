@@ -1,0 +1,642 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  5 OCT 2020 19:16
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**book1.tex
+(./book1.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count176
+\float@exts=\toks15
+\float@box=\box45
+\@float@everytoks=\toks16
+\@floatcapt=\box46
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count177
+\Gm@cntv=\count178
+\c@Gm@tempcnt=\count179
+\Gm@bindingoffset=\dimen137
+\Gm@wd@mp=\dimen138
+\Gm@odd@mp=\dimen139
+\Gm@even@mp=\dimen140
+\Gm@layoutwidth=\dimen141
+\Gm@layoutheight=\dimen142
+\Gm@layouthoffset=\dimen143
+\Gm@layoutvoffset=\dimen144
+\Gm@dimlist=\toks18
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box47
+\beforetitleunit=\skip58
+\aftertitleunit=\skip59
+\ttl@plus=\dimen145
+\ttl@minus=\dimen146
+\ttl@toksa=\toks19
+\titlewidth=\dimen147
+\titlewidthlast=\dimen148
+\titlewidthfirst=\dimen149
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count180
+\l__pdf_internal_box=\box48
+)
+No file book1.aux.
+\openout1 = `book1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count181
+\scratchdimen=\dimen150
+\scratchbox=\box49
+\nofMPsegments=\count182
+\nofMParguments=\count183
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count184
+\MPscratchDim=\dimen151
+\MPnumerator=\count185
+\makeMPintoPDFobject=\count186
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-30.06749pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=0.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 56.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 56.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 56.
+[1
+
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 69.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 69.
+
+[2
+
+]
+Chapter 0.
+<prop1.pdf, id=19, 200.75pt x 42.559pt>
+File: prop1.pdf Graphic file (type pdf)
+<use prop1.pdf>
+Package pdftex.def Info: prop1.pdf  used on input line 97.
+(pdftex.def)             Requested size: 289.07999pt x 61.294pt.
+[3
+
+ <./prop1.pdf>]
+<prop2.pdf, id=31, 200.75pt x 200.75pt>
+File: prop2.pdf Graphic file (type pdf)
+<use prop2.pdf>
+Package pdftex.def Info: prop2.pdf  used on input line 105.
+(pdftex.def)             Requested size: 289.07999pt x 289.12263pt.
+ [4
+
+ <./prop2.pdf>]
+<prop3.pdf, id=40, 200.75pt x 200.75pt>
+File: prop3.pdf Graphic file (type pdf)
+<use prop3.pdf>
+Package pdftex.def Info: prop3.pdf  used on input line 115.
+(pdftex.def)             Requested size: 289.07999pt x 289.12263pt.
+ [5
+
+ <./prop3.pdf>]
+<prop4.pdf, id=48, 200.75pt x 112.5806pt>
+File: prop4.pdf Graphic file (type pdf)
+<use prop4.pdf>
+Package pdftex.def Info: prop4.pdf  used on input line 141.
+(pdftex.def)             Requested size: 289.07999pt x 162.13995pt.
+ [6
+
+ <./prop4.pdf>]
+<prop5.pdf, id=57, 200.75pt x 191.45528pt>
+File: prop5.pdf Graphic file (type pdf)
+<use prop5.pdf>
+Package pdftex.def Info: prop5.pdf  used on input line 152.
+(pdftex.def)             Requested size: 289.07999pt x 275.73628pt.
+
+[7
+
+ <./prop5.pdf>]
+<prop6.pdf, id=66, 185.55322pt x 200.75pt>
+File: prop6.pdf Graphic file (type pdf)
+<use prop6.pdf>
+Package pdftex.def Info: prop6.pdf  used on input line 161.
+(pdftex.def)             Requested size: 289.07999pt x 312.78888pt.
+ [8
+
+ <./prop6.pdf>]
+<prop7.pdf, id=74, 149.29778pt x 200.75pt>
+File: prop7.pdf Graphic file (type pdf)
+<use prop7.pdf>
+Package pdftex.def Info: prop7.pdf  used on input line 170.
+(pdftex.def)             Requested size: 289.07999pt x 388.7469pt.
+ [9
+
+ <./prop7.pdf>]
+<prop8.pdf, id=83, 200.75pt x 112.5806pt>
+File: prop8.pdf Graphic file (type pdf)
+<use prop8.pdf>
+Package pdftex.def Info: prop8.pdf  used on input line 193.
+(pdftex.def)             Requested size: 289.07999pt x 162.13995pt.
+ [10
+
+ <./prop8.pdf>]
+<prop9.pdf, id=91, 185.55322pt x 200.75pt>
+File: prop9.pdf Graphic file (type pdf)
+<use prop9.pdf>
+Package pdftex.def Info: prop9.pdf  used on input line 202.
+(pdftex.def)             Requested size: 289.07999pt x 312.78888pt.
+
+[11
+
+ <./prop9.pdf>]
+<prop10.pdf, id=99, 200.75pt x 13.55063pt>
+File: prop10.pdf Graphic file (type pdf)
+<use prop10.pdf>
+Package pdftex.def Info: prop10.pdf  used on input line 211.
+(pdftex.def)             Requested size: 289.07999pt x 19.51576pt.
+ [12
+
+ <./prop10.pdf>]
+<prop11.pdf, id=107, 200.75pt x 14.80531pt>
+File: prop11.pdf Graphic file (type pdf)
+<use prop11.pdf>
+Package pdftex.def Info: prop11.pdf  used on input line 220.
+(pdftex.def)             Requested size: 289.07999pt x 21.32275pt.
+ [13
+
+ <./prop11.pdf>]
+<prop12.pdf, id=116, 200.75pt x 121.19278pt>
+File: prop12.pdf Graphic file (type pdf)
+<use prop12.pdf>
+Package pdftex.def Info: prop12.pdf  used on input line 229.
+(pdftex.def)             Requested size: 289.07999pt x 174.54332pt.
+ [14
+
+ <./prop12.pdf>]
+<prop13.pdf, id=124, 200.75pt x 108.44514pt>
+File: prop13.pdf Graphic file (type pdf)
+<use prop13.pdf>
+Package pdftex.def Info: prop13.pdf  used on input line 238.
+(pdftex.def)             Requested size: 289.07999pt x 156.18402pt.
+
+[15
+
+ <./prop13.pdf>]
+<prop14.pdf, id=132, 200.75pt x 108.44514pt>
+File: prop14.pdf Graphic file (type pdf)
+<use prop14.pdf>
+Package pdftex.def Info: prop14.pdf  used on input line 247.
+(pdftex.def)             Requested size: 289.07999pt x 156.18402pt.
+ [16
+
+ <./prop14.pdf>]
+<prop15.pdf, id=140, 200.75pt x 138.32678pt>
+File: prop15.pdf Graphic file (type pdf)
+<use prop15.pdf>
+Package pdftex.def Info: prop15.pdf  used on input line 256.
+(pdftex.def)             Requested size: 289.07999pt x 199.21994pt.
+ [17
+
+ <./prop15.pdf>]
+<prop16.pdf, id=148, 200.75pt x 152.67038pt>
+File: prop16.pdf Graphic file (type pdf)
+<use prop16.pdf>
+Package pdftex.def Info: prop16.pdf  used on input line 266.
+(pdftex.def)             Requested size: 289.07999pt x 219.87778pt.
+ [18
+
+ <./prop16.pdf>]
+<prop17.pdf, id=156, 185.55322pt x 200.75pt>
+File: prop17.pdf Graphic file (type pdf)
+<use prop17.pdf>
+Package pdftex.def Info: prop17.pdf  used on input line 275.
+(pdftex.def)             Requested size: 289.07999pt x 312.78888pt.
+[19
+
+ <./prop17.pdf>]
+<prop18.pdf, id=166, 200.75pt x 121.27307pt>
+File: prop18.pdf Graphic file (type pdf)
+<use prop18.pdf>
+Package pdftex.def Info: prop18.pdf  used on input line 285.
+(pdftex.def)             Requested size: 289.07999pt x 174.65898pt.
+ [20
+
+ <./prop18.pdf>]
+<prop19.pdf, id=174, 200.75pt x 121.27307pt>
+File: prop19.pdf Graphic file (type pdf)
+<use prop19.pdf>
+Package pdftex.def Info: prop19.pdf  used on input line 295.
+(pdftex.def)             Requested size: 289.07999pt x 174.65898pt.
+ [21
+
+ <./prop19.pdf>]
+<prop20.pdf, id=182, 200.75pt x 121.27307pt>
+File: prop20.pdf Graphic file (type pdf)
+<use prop20.pdf>
+Package pdftex.def Info: prop20.pdf  used on input line 304.
+(pdftex.def)             Requested size: 289.07999pt x 174.65898pt.
+ [22
+
+ <./prop20.pdf>]
+./book1.tex:313: Undefined control sequence.
+<recently read> \A 
+                   
+l.313     Show $BD + CD < BA + CA$ and $\A
+                                           < \D$.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./book1.tex:313: Undefined control sequence.
+l.313     Show $BD + CD < BA + CA$ and $\A < \D
+                                               $.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<prop21.pdf, id=190, 200.75pt x 121.27307pt>
+File: prop21.pdf Graphic file (type pdf)
+<use prop21.pdf>
+Package pdftex.def Info: prop21.pdf  used on input line 314.
+(pdftex.def)             Requested size: 289.07999pt x 174.65898pt.
+[23
+
+ <./prop21.pdf>]
+<prop22.pdf, id=198, 200.75pt x 135.59659pt>
+File: prop22.pdf Graphic file (type pdf)
+<use prop22.pdf>
+Package pdftex.def Info: prop22.pdf  used on input line 323.
+(pdftex.def)             Requested size: 289.07999pt x 195.28787pt.
+ [24
+
+ <./prop22.pdf>]
+<prop23.pdf, id=206, 200.75pt x 94.44284pt>
+File: prop23.pdf Graphic file (type pdf)
+<use prop23.pdf>
+Package pdftex.def Info: prop23.pdf  used on input line 331.
+(pdftex.def)             Requested size: 289.07999pt x 136.01773pt.
+ [25
+
+ <./prop23.pdf>]
+<prop24.pdf, id=215, 200.75pt x 116.12384pt>
+File: prop24.pdf Graphic file (type pdf)
+<use prop24.pdf>
+Package pdftex.def Info: prop24.pdf  used on input line 348.
+(pdftex.def)             Requested size: 289.07999pt x 167.24297pt.
+ [26
+
+ <./prop24.pdf>]
+<prop25.pdf, id=223, 200.75pt x 116.12384pt>
+File: prop25.pdf Graphic file (type pdf)
+<use prop25.pdf>
+Package pdftex.def Info: prop25.pdf  used on input line 365.
+(pdftex.def)             Requested size: 289.07999pt x 167.24297pt.
+[27
+
+ <./prop25.pdf>]
+<prop26.pdf, id=231, 200.75pt x 112.5806pt>
+File: prop26.pdf Graphic file (type pdf)
+<use prop26.pdf>
+Package pdftex.def Info: prop26.pdf  used on input line 390.
+(pdftex.def)             Requested size: 289.07999pt x 162.13995pt.
+ [28
+
+ <./prop26.pdf>]
+<prop27.pdf, id=239, 175.10419pt x 200.75pt>
+File: prop27.pdf Graphic file (type pdf)
+<use prop27.pdf>
+Package pdftex.def Info: prop27.pdf  used on input line 400.
+(pdftex.def)             Requested size: 289.07999pt x 331.4376pt.
+ [29
+
+ <./prop27.pdf>]
+<prop28.pdf, id=247, 155.49092pt x 200.75pt>
+File: prop28.pdf Graphic file (type pdf)
+<use prop28.pdf>
+Package pdftex.def Info: prop28.pdf  used on input line 408.
+(pdftex.def)             Requested size: 289.07999pt x 373.27472pt.
+ [30
+
+ <./prop28.pdf>]
+<prop29.pdf, id=255, 155.49092pt x 200.75pt>
+File: prop29.pdf Graphic file (type pdf)
+<use prop29.pdf>
+Package pdftex.def Info: prop29.pdf  used on input line 428.
+(pdftex.def)             Requested size: 289.07999pt x 373.27472pt.
+[31
+
+ <./prop29.pdf>]
+<prop30.pdf, id=264, 200.75pt x 146.84863pt>
+File: prop30.pdf Graphic file (type pdf)
+<use prop30.pdf>
+Package pdftex.def Info: prop30.pdf  used on input line 442.
+(pdftex.def)             Requested size: 289.07999pt x 211.49323pt.
+ [32
+
+ <./prop30.pdf>]
+<prop31.pdf, id=272, 200.75pt x 89.97615pt>
+File: prop31.pdf Graphic file (type pdf)
+<use prop31.pdf>
+Package pdftex.def Info: prop31.pdf  used on input line 451.
+(pdftex.def)             Requested size: 289.07999pt x 129.58473pt.
+ [33
+
+ <./prop31.pdf>]
+<prop32.pdf, id=280, 200.75pt x 121.03218pt>
+File: prop32.pdf Graphic file (type pdf)
+<use prop32.pdf>
+Package pdftex.def Info: prop32.pdf  used on input line 461.
+(pdftex.def)             Requested size: 289.07999pt x 174.31204pt.
+ [34
+
+ <./prop32.pdf>]
+<prop33.pdf, id=288, 200.75pt x 147.16982pt>
+File: prop33.pdf Graphic file (type pdf)
+<use prop33.pdf>
+Package pdftex.def Info: prop33.pdf  used on input line 471.
+(pdftex.def)             Requested size: 289.07999pt x 211.9558pt.
+[35
+
+ <./prop33.pdf>]
+<prop34.pdf, id=297, 200.75pt x 147.16982pt>
+File: prop34.pdf Graphic file (type pdf)
+<use prop34.pdf>
+Package pdftex.def Info: prop34.pdf  used on input line 494.
+(pdftex.def)             Requested size: 289.07999pt x 211.9558pt.
+ [36
+
+ <./prop34.pdf>]
+<prop35.pdf, id=305, 401.5pt x 74.23735pt>
+File: prop35.pdf Graphic file (type pdf)
+<use prop35.pdf>
+Package pdftex.def Info: prop35.pdf  used on input line 508.
+(pdftex.def)             Requested size: 289.07999pt x 53.45422pt.
+ [37
+
+ <./prop35.pdf>]
+<prop36.pdf, id=314, 200.75pt x 87.62738pt>
+File: prop36.pdf Graphic file (type pdf)
+<use prop36.pdf>
+Package pdftex.def Info: prop36.pdf  used on input line 523.
+(pdftex.def)             Requested size: 289.07999pt x 126.20203pt.
+ [38
+
+ <./prop36.pdf>]
+<prop37.pdf, id=322, 185.55322pt x 200.75pt>
+File: prop37.pdf Graphic file (type pdf)
+<use prop37.pdf>
+Package pdftex.def Info: prop37.pdf  used on input line 532.
+(pdftex.def)             Requested size: 289.07999pt x 312.78888pt.
+[39
+
+ <./prop37.pdf>]
+<prop38.pdf, id=330, 200.75pt x 102.50296pt>
+File: prop38.pdf Graphic file (type pdf)
+<use prop38.pdf>
+Package pdftex.def Info: prop38.pdf  used on input line 547.
+(pdftex.def)             Requested size: 289.07999pt x 147.626pt.
+ [40
+
+ <./prop38.pdf>]
+<prop39.pdf, id=338, 200.75pt x 128.29933pt>
+File: prop39.pdf Graphic file (type pdf)
+<use prop39.pdf>
+Package pdftex.def Info: prop39.pdf  used on input line 556.
+(pdftex.def)             Requested size: 289.07999pt x 184.77827pt.
+ [41
+
+ <./prop39.pdf>]
+<prop40.pdf, id=346, 200.75pt x 69.39928pt>
+File: prop40.pdf Graphic file (type pdf)
+<use prop40.pdf>
+Package pdftex.def Info: prop40.pdf  used on input line 571.
+(pdftex.def)             Requested size: 289.07999pt x 99.94968pt.
+ [42
+
+ <./prop40.pdf>]
+<prop41.pdf, id=354, 200.75pt x 121.27307pt>
+File: prop41.pdf Graphic file (type pdf)
+<use prop41.pdf>
+Package pdftex.def Info: prop41.pdf  used on input line 581.
+(pdftex.def)             Requested size: 289.07999pt x 174.65898pt.
+[43
+
+ <./prop41.pdf>]
+<prop42.pdf, id=363, 200.75pt x 88.52072pt>
+File: prop42.pdf Graphic file (type pdf)
+<use prop42.pdf>
+Package pdftex.def Info: prop42.pdf  used on input line 590.
+(pdftex.def)             Requested size: 289.07999pt x 127.48863pt.
+ [44
+
+ <./prop42.pdf>]
+<prop43.pdf, id=371, 200.75pt x 145.77461pt>
+File: prop43.pdf Graphic file (type pdf)
+<use prop43.pdf>
+Package pdftex.def Info: prop43.pdf  used on input line 610.
+(pdftex.def)             Requested size: 289.07999pt x 209.94641pt.
+ [45
+
+ <./prop43.pdf>]
+<prop44.pdf, id=379, 200.75pt x 66.6189pt>
+File: prop44.pdf Graphic file (type pdf)
+<use prop44.pdf>
+Package pdftex.def Info: prop44.pdf  used on input line 625.
+(pdftex.def)             Requested size: 289.07999pt x 95.94536pt.
+ [46
+
+ <./prop44.pdf>]
+<prop45.pdf, id=387, 200.75pt x 148.22375pt>
+File: prop45.pdf Graphic file (type pdf)
+<use prop45.pdf>
+Package pdftex.def Info: prop45.pdf  used on input line 639.
+(pdftex.def)             Requested size: 289.07999pt x 213.4737pt.
+[47
+
+ <./prop45.pdf>]
+<prop46.pdf, id=395, 200.75pt x 13.55063pt>
+File: prop46.pdf Graphic file (type pdf)
+<use prop46.pdf>
+Package pdftex.def Info: prop46.pdf  used on input line 648.
+(pdftex.def)             Requested size: 289.07999pt x 19.51576pt.
+ [48
+
+ <./prop46.pdf>]
+<prop47.pdf, id=403, 200.75pt x 108.52545pt>
+File: prop47.pdf Graphic file (type pdf)
+<use prop47.pdf>
+Package pdftex.def Info: prop47.pdf  used on input line 659.
+(pdftex.def)             Requested size: 289.07999pt x 156.2997pt.
+ [49
+
+ <./prop47.pdf>]
+<prop48.pdf, id=412, 200.75pt x 108.52545pt>
+File: prop48.pdf Graphic file (type pdf)
+<use prop48.pdf>
+Package pdftex.def Info: prop48.pdf  used on input line 669.
+(pdftex.def)             Requested size: 289.07999pt x 156.2997pt.
+ [50
+
+ <./prop48.pdf>] (/Users/david/Desktop/EuclidSupplement/out/book1.aux) ) 
+Here is how much of TeX's memory you used:
+ 2458 strings out of 480608
+ 35742 string characters out of 5903631
+ 281094 words of memory out of 5000000
+ 18314 multiletter control sequences out of 15000+600000
+ 538299 words of font info for 43 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,10n,45p,998b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/l
+ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/lo
+cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
+/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+20/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2020/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on /Users/david/Desktop/EuclidSupplement/out/book1.pdf (50 pages
+, 247260 bytes).
+PDF statistics:
+ 470 PDF objects out of 1000 (max. 8388607)
+ 351 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+

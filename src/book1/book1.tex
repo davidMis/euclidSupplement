@@ -1,0 +1,672 @@
+\documentclass[openany]{book}
+
+% Standard packages
+\usepackage{
+    float, 
+    graphicx
+}
+
+% Set page margins
+\usepackage[top=1.0in, bottom=1.0in, left=1.0in, right=1.0in]{geometry}
+
+\setlength{\marginparwidth}{0pt}
+
+% Set nice page headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% Paragraph style
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+% Diagram command
+\newcommand{\diagram}[1]{
+    \vspace*{\fill}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=4in]{#1}
+    \end{figure}
+    \vspace*{\fill}
+}
+
+% Proposition environment
+\newenvironment{proposition}
+    {\begin{center}\em}
+    {\end{center}}
+
+\setcounter{chapter}{-1}
+
+\usepackage{titlesec}
+
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{}{0pt}{\Huge}
+\titlespacing*{\chapter}
+{0pt}{0pt}{30pt}
+
+\titleformat{\section}[display]
+{\normalfont\huge\bfseries}{}{-20pt}{\Large}
+\titlespacing*{\section}
+{0pt}{0pt}{10pt}
+
+\title{Supplement for Euclid's \textit{Elements} Book 1}
+\author{David Mis}
+
+\begin{document}
+
+    \maketitle
+
+    % Reset headers to display "Introduction" etc.
+    \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+    \renewcommand{\sectionmark}[1]{}
+
+    \chapter*{}
+    \section*{Introduction}
+
+    When I first worked through the Elements, I found it difficult to understand the propositions without referring to the figures. Unfortunately, the figures often give away the solution as well, which robbed me of the opportunity to work through it myself. In this supplement, I present each proposition as a problem to be solved \textbf{without} a solution. That way you can try your hand at each proposition without accidentally seeing the answer.
+
+    The goal of this supplement is to present figures and enough commentary for you to take a stab at working through the propositions yourself before reading Euclid's solution. It is not a replacement for a full translation.
+
+    I referred to the John Casey translation, which is the public domain and freely available from Project Gutenberg\footnote{http://www.gutenberg.org/ebooks/21076}. The translations of the propositions in this document are taken directly from that source with the assumption that the reader may want to refer to the original after trying the problems for themselves. Casey's translation contains a wealth of interesting and worthwhile content including solutions, exercises, and commentary.
+
+    In addition to Casey's translation of each Proposition, I provide instructions using modern language. I hope this makes it easier to focus on the geometry instead of struggling with century-old English.
+
+    Use the provided pictures as a starting point for each problem. They are essentially the same as the images in Casey's translation of Euclid, but I took an eraser to remove all the steps to the solution. Your completed diagrams may resemble Euclid's, or you might find a different answer!
+
+    Some of these problems are difficult if you're seeing them for the first time (or if it has been many years since you've practiced geometry.) Don't get discouraged, and don't feel guilty about looking at the answers if you get stuck. This is a game meant to be enjoyed.
+
+    A final word of advice: You may occasionally notice some holes in Euclid's theory of geometry. Even in the solution to the very first problem, a point appears that cannot be justified to exist strictly by the Postulates and Axioms alone\footnote{If you are interested in learning about the logical deficiencies in the \textit{Elements}, see the short essay ``The Teaching of Euclid" by Bertrand Russel for an introduction. However, please don't let it stop you from enjoying the \textit{Elements} on its own terms.}. However, even if the theory is not perfect, it is undeniably useful. I like to approach these problems pretending I am a draftsman attempting to draw an accurate technical diagram using the tools I have available: compass and unmarked ruler. I am satisfied when I can draw the figure and explain why it is correct, even if the justification isn't entirely rigorous. Indeed, Euclid's techniques are still useful for artists and craftsmen even today.
+
+    % Reset headers to display "Book #       Proposition #" etc.
+    \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+    \renewcommand{\sectionmark}[1]{\markright{#1}}
+
+    \chapter{Book 1}
+
+    \section{Proposition 1}
+    \begin{proposition}
+        On a given finite right line (AB) to construct an equilateral triangle.
+    \end{proposition}
+
+    Your goal is to draw an equilateral triangle with line $AB$ as one of its sides, using only the following moves:
+    \begin{enumerate}
+        \item You may connect any two points with a line.
+        \item You may extend any line indefinitely in either direction.
+        \item You may draw a circle centered on any point with radius equal to the distance between the center and any other point.
+    \end{enumerate}
+    These moves are called "postulates", and they can be accomplished with a compass and an unmarked ruler.
+    \diagram{prop1.pdf}
+
+    \clearpage
+    \section{Proposition 2}
+    \begin{proposition}
+    From a given point (A) to draw a right line equal to a given finite right line (BC).
+    \end{proposition}
+    Draw a line starting from $A$ that has the same length as $BC$.
+    \diagram{prop2.pdf}
+
+
+    \clearpage
+    \section{Proposition 3}
+    \begin{proposition}
+    From the greater (AB) of two given right lines to cut
+    off a part equal to (C) the less.
+    \end{proposition}
+    Cut $AB$ such that one segment has the same length as $C$.
+    \diagram{prop3.pdf}
+
+
+    \clearpage
+    \section{Proposition 4 (``Side-Angle-Side Congruence")}
+    \begin{proposition}
+    If two triangles (BAC, EDF) have two sides (BA, AC) of one equal respectively
+    to two sides (ED, DF) of the other, and have also the angles
+    (A, D) included by those sides equal, the triangles shall be equal
+    in every respect--that is, their bases or third sides (BC, EF) shall be equal,
+    and the angles (B, C) at the base of one shall be respectively equal
+    to the angles (E, F) at the base of the other; namely, those shall
+    be equal to which the equal sides are opposite.
+    \end{proposition}
+    We have two triangles $ABC$ and $DEF$ such that:
+    \begin{enumerate}
+        \item $AB = DE$,
+        \item $AC = DF$, and
+        \item $\angle{A} = \angle{D}$.
+    \end{enumerate}
+    Show that the two triangles are congruent. That is, show
+    \begin{enumerate}
+        \item $BC = EF$,
+        \item $\angle{C} = \angle{F}$, and
+        \item $\angle{B} = \angle{E}$.
+    \end{enumerate}
+    \diagram{prop4.pdf}
+
+
+    \clearpage
+    \section{Proposition 5}
+    \begin{proposition}
+    The angles (ABC, ACB) at the base (BC) of an isosceles triangle
+    are equal to one another, and if the equal sides (AB, AC) be produced, the
+    external angles (DBC, ECB) below the base shall be equal.
+    \end{proposition}
+        In the figure below, $ABC$ is an isosceles triangle with $AB$ = $AC$ and $\angle{ABC} = \angle{ACB}$. Show $\angle{DBC} = \angle{ECB}$.
+    \diagram{prop5.pdf}
+
+
+    \clearpage
+    \section{Proposition 6}
+    \begin{proposition}
+    If two angles (B, C) of a triangle be equal, the sides (AC, AB) opposite to them are also equal.
+    \end{proposition}
+    In triangle $ABC$, we have $\angle{B} = \angle{C}$. Show $AB = AC$.
+    \diagram{prop6.pdf}
+
+
+    \clearpage
+    \section{Proposition 7}
+    \begin{proposition}
+    If two triangles (ACB, ADB) on the same base (AB) and on the same side of it have one pair of conterminous sides (AC, AD) equal to one another, the other pair of conterminous sides (BC, BD) must be unequal.
+    \end{proposition}
+    In the figure, we have $AD = AC$. Show $BD \neq BC$.
+    \diagram{prop7.pdf}
+
+
+    \clearpage
+    \section{Proposition 8 (``Side-Side-Side Congruence")}
+    \begin{proposition}
+    If two triangles (ABC, DEF) have two sides (AB, AC) of one respectively equal to two sides (DE, DF) of the other,
+    and have also the base (BC) of one equal to the base (EF) of the other; then the two triangles shall be equal, and
+    the angles of one shall be respectively equal to the angles of the other—namely, those shall be equal to which the
+    equal sides are opposite.
+    \end{proposition}
+    We have two triangles $ABC$ and $DEF$ such that:
+    \begin{enumerate}
+        \item $AB = DE$,
+        \item $AC = DF$, and
+        \item $BC = EF$.
+    \end{enumerate}
+    Show that the two triangles are congruent. That is, show
+    \begin{enumerate}
+        \item $\angle{A} = \angle{D}$,
+        \item $\angle{C} = \angle{F}$, and
+        \item $\angle{B} = \angle{E}$.
+    \end{enumerate}
+    \diagram{prop8.pdf}
+
+
+    \clearpage
+    \section{Proposition 9 (Bisect an angle)}
+    \begin{proposition}
+    To bisect a given rectilineal angle (BAC).
+    \end{proposition}
+    Split $\angle{A}$ into two equal angles.
+    \diagram{prop9.pdf}
+
+
+    \clearpage
+    \section{Proposition 10 (Bisect a segment)}
+    \begin{proposition}
+    To bisect a given finite right line (AB).
+    \end{proposition}
+    Find the midpoint of $AB$.
+    \diagram{prop10.pdf}
+
+
+    \clearpage
+    \section{Proposition 11}
+    \begin{proposition}
+    From a given point (C) in a given right line (AB) to draw a right line perpendicular to the given line.
+    \end{proposition}
+    Draw a line with endpoint $C$ that is perpendicular to $AB$.
+    \diagram{prop11.pdf}
+
+
+    \clearpage
+    \section{Proposition 12}
+    \begin{proposition}
+    To draw a perpendicular to a given indefinite right line (AB) from a given point (C) without it.
+    \end{proposition}
+    Draw a line with endpoint $C$ that is perpendicular to $AB$.
+    \diagram{prop12.pdf}
+
+
+    \clearpage
+    \section{Proposition 13}
+    \begin{proposition}
+    The adjacent angles (ABC, ABD) with one right line (AB) standing on another (CD) makes with it are either both right angles, or their sum is equal to two right angles.
+    \end{proposition}
+    Show $\angle{ABC} + \angle{ABD}$ equals the sum of two right angles.
+    \diagram{prop13.pdf}
+
+
+    \clearpage
+    \section{Proposition 14}
+    \begin{proposition}
+    If at a point (B) in a right line (BA) two other right lines (CB, BD) on opposite sides make the adjacent angles (CBA, ABD) together equal to two right angles, these two right lines form one continuous line.
+    \end{proposition}
+    This time we have $\angle{ABC} + \angle{ABD}$ equal to the sum of two right angles, and we need to show $C$, $B$, and $D$ lie on the same line.
+    \diagram{prop14.pdf}
+
+
+    \clearpage
+    \section{Proposition 15 (Opposite angles are equal)}
+    \begin{proposition}
+    If two right lines (AB, CD) intersect one another, the opposite angles are equal (CEA = DEB, and BEC = AED).
+    \end{proposition}
+    Show $\angle{CEA} = \angle{DEB}$ and $\angle{AED} = \angle{CEB}$.
+    \diagram{prop15.pdf}
+
+
+    \clearpage
+    \section{Proposition 16}
+    \begin{proposition}
+    If any side (BC) of a triangle (ABC) be produced, the exterior angle (ACD) is greater than either of the interior
+    non-adjacent angles.
+    \end{proposition}
+    Show $\angle{ACD} > \angle{A}$ and $\angle{ACD} > \angle{B}$.
+    \diagram{prop16.pdf}
+
+
+    \clearpage
+    \section{Proposition 17}
+    \begin{proposition}
+    Any two angles (B, C) of a triangle (ABC) are together less than two right angles.
+    \end{proposition}
+    Show that $\angle{B} + \angle{C}$ is less than the sum of two right angles.
+    \diagram{prop17.pdf}
+
+
+    \clearpage
+    \section{Proposition 18}
+    \begin{proposition}
+    If in any triangle (ABC) one side (AC) be greater than another (AB), the angle opposite to the greater side is
+    greater than the angle opposite to the less.
+    \end{proposition}
+    We have $AC > AB$. Show $\angle{B} > \angle{C}.$
+    \diagram{prop18.pdf}
+
+
+    \clearpage
+    \section{Proposition 19}
+    \begin{proposition}
+    If one angle (B) of a triangle (ABC) be greater than another angle (C), the side (AC) which it opposite to the
+    greater angle is greater than the side (AB) which is opposite to the less.
+    \end{proposition}
+    We have $\angle{B} > \angle{C}.$ Show $AC > AB$.
+    \diagram{prop19.pdf}
+
+
+    \clearpage
+    \section{Proposition 20}
+    \begin{proposition}
+    The sum of any two sides (BA, AC) of a triangle (ABC) is greater than the third.
+    \end{proposition}
+    Show $AB + AC > BC$.
+    \diagram{prop20.pdf}
+
+
+    \clearpage
+    \section{Proposition 21}
+    \begin{proposition}
+    If two lines (BD, CD) be drawn to a point (D) within a triangle from the extremities of its base (BC), their sum is
+    less than the sum of the remaining sides (BA, CA), but they contain a greater angle.
+    \end{proposition}
+    Show $BD + CD < BA + CA$ and $A < D$.
+    \diagram{prop21.pdf}
+
+    \clearpage
+    \section{Proposition 22}
+    \begin{proposition}
+    To construct a triangle whose three sides shall be respectively equal to three given lines (A, B, C), the sum of
+    every two of which is greater than the third.
+    \end{proposition}
+    Create a triangle with side lengths equal to the three provided lines.
+    \diagram{prop22.pdf}
+
+    \clearpage
+    \section{Proposition 23}
+    \begin{proposition}
+    At a given point (A) in a given right line (AB) to make an angle equal to a given rectilineal angle (DEF).
+    \end{proposition}
+    Create an angle with vertex at $A$ whose measure is equal to $\angle{DEF}$.
+    \diagram{prop23.pdf}
+
+
+    \clearpage
+    \section{Proposition 24}
+    \begin{proposition}
+    If two triangles (ABC, DEF) have two sides (AB, AC) of one respectively equal to two sides (DE, DF) of the other,
+    but the contained angle (BAC) of one greater than the contained angle (EDF) of the other, the base of that which
+    has the greater angle is greater than the base of the other.
+    \end{proposition}
+    We have
+    \begin{enumerate}
+        \item $AB = DE$,
+        \item $AC = DF$, and
+        \item $\angle{A} > \angle{D}$.
+    \end{enumerate}
+    Show $BC > EF$.
+    \diagram{prop24.pdf}
+
+
+    \clearpage
+    \section{Proposition 25}
+    \begin{proposition}
+    If two triangles (ABC, DEF) have two sides (AB, AC) of one respectively equal to two sides (DE, DF) of the other,
+    but the base (BC) of one greater than the base (EF) of the other, the angle (A) contained by the sides of that
+    which has the greater base is greater them the angle (D) contained by the sides of the other.
+    \end{proposition}
+    We have
+    \begin{enumerate}
+        \item $AB = DE$,
+        \item $AC = DF$, and
+        \item $BC > EF$.
+    \end{enumerate}
+        Show $\angle{A} > \angle{D}$.
+    \diagram{prop25.pdf}
+
+
+    \clearpage
+    \section{Proposition 26 (SAA and ASA Congruence)}
+    \begin{proposition}
+    If two triangles (ABC, DEF) have two angles (B, C) of one equal respectively to two angles (E, F) of the other, and a side of one equal to a side similarly placed with respect to the equal angles of the other, the triangles are equal in every respect.
+    \end{proposition}
+    This proposition is asking you to demonstrate two separate things. First, we have
+    \begin{enumerate}
+        \item $\angle{B} = \angle{E}$,
+        \item $\angle{C} = \angle{F}$, and
+        \item $AB = DE$.
+    \end{enumerate}
+    Show $BC = EF$, $AC = DF$, and $\angle{A} = \angle{D}$.
+
+    Second, we have
+    \begin{enumerate}
+        \item $\angle{B} = \angle{E}$,
+        \item $\angle{C} = \angle{F}$, and
+        \item $BC = EF$.
+    \end{enumerate}
+    Show $AB = DE$, $AC = DF$, and $\angle{A} = \angle{D}$.
+
+    The difference between the problem is whether or not the side with equal length is between the known angles.
+    \diagram{prop26.pdf}
+
+    \clearpage
+Casey provides new definitions pertaining to parallel before the next Proposition. You may want to review them if any of the terminology is unfamiliar.
+    \section{Proposition 27}
+    \begin{proposition}
+    If a right line (EF) intersecting two right lines (AB, CD) makes the alternate angles (AEF, EFD) equal to each other, these lines are parallel.
+    \end{proposition}
+
+    We have $\angle{AEF} = \angle{EFD}$. Show $AB$ is parallel to $CD$.
+    \diagram{prop27.pdf}
+
+    \clearpage
+    \section{Proposition 28}
+    \begin{proposition}
+    If a right line (EF) intersecting two right lines (AB, CD) makes the exterior angle (EGB) equal to its corresponding interior angle (GHD), or makes two interior angles (BGH, GHD) on the same side equal to two right  angles, the two right lines are parallel.
+    \end{proposition}
+    We need to demonstrate two separate things. First, given $\angle{EGB} = \angle{GHD}$, show $AB$ is parallel to $CD$. Second, given $\angle{BGH} = \angle{GHD}$, show $AB$ is parallel to $CD$.
+    \diagram{prop28.pdf}
+
+
+    \clearpage
+    \section{Proposition 29}
+    \begin{proposition}
+    If a right line (EF) intersect two parallel right lines (AB, CD), it makes
+    \begin{enumerate}
+        \item the alternate angles (AGH,GHD) equal
+    to one another;
+        \item the exterior angle (EGB) equal to the corresponding interior angle (GHD);
+        \item the two interior angles (BGH, GHD) on the same side equal to two right angles.
+    \end{enumerate}
+    \end{proposition}
+    This time, we are given $AB$ is parallel to $CD$, and we must demonstrate three separate things:
+    \begin{enumerate}
+        \item $\angle{AGH} = \angle{GHD}$,
+        \item $\angle{EGB} = \angle{GHD}$, and
+        \item $\angle{BGH} + \angle{GHC}$ equals the sum of two right angles.
+    \end{enumerate}
+    \diagram{prop29.pdf}
+
+
+    \clearpage
+    \section{Proposition 30}
+    \begin{proposition}
+    If two right lines (AB, CD) be parallel to the same right line (EF), they are parallel to one another.
+    \end{proposition}
+    Given
+    \begin{enumerate}
+    \item $AB$ is parallel to $EF$, and
+    \item $CD$ is parallel to $EF$.
+    \end{enumerate}
+    Show $AB$ is parallel to $EF$.
+    \diagram{prop30.pdf}
+
+
+    \clearpage
+    \section{Proposition 31}
+    \begin{proposition}
+    Through a given point (C) to draw a right line parallel to a given right line.
+    \end{proposition}
+    Draw a line through $C$ that is parallel to $AB$.
+    \diagram{prop31.pdf}
+
+
+    \clearpage
+    \section{Proposition 32}
+    \begin{proposition}
+    If any side (AB) of a triangle (ABC) be produced (to D), the external angle (CBD) is equal to the sum of the two
+    internal non-adjacent angles (A, C), and the sum of the three internal angles is equal to two right angles.
+    \end{proposition}
+    The proposition asks you to demonstrate two things. First, show $\angle{BCD} = \angle{A} + \angle{C}$. From there, show $\angle{A} + \angle{C} + \angle{ABC}$ equals the sum of two right angles.
+    \diagram{prop32.pdf}
+
+
+    \clearpage
+    \section{Proposition 33}
+    \begin{proposition}
+    The right lines (AC, BD) which join the adjacent extremities of two equal and parallel right lines (AB, CD) are
+    equal and parallel.
+    \end{proposition}
+    We know $AB$ is parallel to $CD$. Show $AC$ is parallel to $BD$.
+    \diagram{prop33.pdf}
+
+
+    \clearpage
+    \section{Proposition 34}
+    \begin{proposition}
+    The opposite sides (AB, CD; AC, BD) and the opposite angles (A, D; B, C) of a parallelogram are equal to one
+    another, and either diagonal bisects the parallelogram.
+    \end{proposition}
+    We have a parallelogram where
+    \begin{enumerate}
+        \item $AB$ is parallel to $CD$, and
+        \item $AC$ is parallel to $BD$.
+    \end{enumerate}
+    Show
+    \begin{enumerate}
+        \item $AB = CD$,
+        \item $AC = BD$,
+        \item $\angle{A} = \angle{D}$,
+        \item $\angle{C} = \angle{B}$,
+        \item drawing a line connecting $A$ and $D$ splits the parallelogram into two congruent triangles, and
+        \item drawing a line $B$ and $C$ likewise splits the parallelogram into two congruent triangles.
+    \end{enumerate}
+    \diagram{prop34.pdf}
+
+
+    \clearpage
+    \section{Proposition 35}
+    \begin{proposition}
+    Parallelograms on the same base (BC) and between the same parallels are equal.
+    \end{proposition}
+    Handle this Proposition in three separate cases. In all parallelograms below, $A, E, D,$ and $F$ are colinear.
+    \begin{enumerate}
+        \item On the left-most figure, show that the area of $ADCB$ is equal to the area of $BDFC$.
+        \item On the center figure, show that the area of $ADCB$ is equal to the area of $BEFC$.
+        \item Likewise on the right-most figure, show that the area of $ADCB$ is equal to the area of $BEFC$.
+    \end{enumerate}
+    \diagram{prop35.pdf}
+
+
+    \clearpage
+    \section{Proposition 36}
+    \begin{proposition}
+    Parallelograms (BD, FH) on equal bases (BC, FG) and between the same parallels are equal.
+    \end{proposition}
+    We have two parallelograms such that
+    \begin{enumerate}
+        \item $A, D, E,$ and $H$ are colinear,
+        \item $B, C, F,$ and $G$ are colinear, and
+        \item $BC = FG$.
+    \end{enumerate}
+    Show that the two parallelograms have equal area.
+    \diagram{prop36.pdf}
+
+
+    \clearpage
+    \section{Proposition 37}
+    \begin{proposition}
+    Triangles (ABC, DBC) on the same base (BC) and between the same parallels (AD, BC) are equal.
+    \end{proposition}
+    The line connecting $AD$ is parallel to $BC$. Show that the triangles $ADC$ and $BDC$ have equal area.
+    \diagram{prop37.pdf}
+
+
+    \clearpage
+    \section{Proposition 38}
+    \begin{proposition}
+    Two triangles on equal bases and between the same parallels are equal.
+    \end{proposition}
+    We have two triangles such that
+    \begin{enumerate}
+        \item $B, C, E,$ and $F$ are colinear,
+        \item the line conencting $A$ and $D$ is parallel to the line connecting $B$ and $F$, and
+        \item $BC = EF$.
+    \end{enumerate}
+    Show that the two triangles have equal area.
+    \diagram{prop38.pdf}
+
+
+    \clearpage
+    \section{Proposition 39}
+    \begin{proposition}
+    Equal triangles (BAC, BDC) on the same base (BC) and on the same side of it are between the same parallels.
+    \end{proposition}
+    We have two triangles $ABC$ and $BDC$ with equal area. Show that the line connecting $A$ and $D$ is parallel to $BC$.
+    \diagram{prop39.pdf}
+
+
+    \clearpage
+    \section{Proposition 40}
+    \begin{proposition}
+    Equal triangles (ABC, DEF) on equal bases (BC, EF) which form parts of the same right line, and on the same side of
+    the line, are between the same parallels.
+    \end{proposition}
+    In the figure below, we have
+    \begin{enumerate}
+        \item the area of $ABC$ equals the area of $DEF$, and
+        \item $BC = EF$.
+    \end{enumerate}
+    Show that the line connecting $AD$ is parallel to $DF$.
+    \diagram{prop40.pdf}
+
+
+    \clearpage
+    \section{Proposition 41}
+    \begin{proposition}
+    If a parallelogram (ABCD) and a triangle (EBC) be on the same base (BC) and between the same parallels, the
+    parallelogram is double of the triangle.
+    \end{proposition}
+    We are told $E$ is collinear with $AD$. Show that the area of parallelogram $ABDC$ is double the area of triangle $BEC$.
+    \diagram{prop41.pdf}
+
+
+    \clearpage
+    \section{Proposition 42}
+    \begin{proposition}
+    To construct a parallelogram equal to a given triangle (ABC), and having an angle equal to a given angle (D).
+    \end{proposition}
+    Draw a parallelogram with one angle at $\angle{D}$ whose area is equal to the area of triangle $ABC$.
+    \diagram{prop42.pdf}
+
+
+    \clearpage
+    \section{Proposition 43}
+    \begin{proposition}
+    The parallels (EF, GH) through any point (K) in one of the diagonals (AC) of a parallelogram divide it into four
+    parallelograms, of which the two (BK, KD) through which the diagonal does not pass, and which are called the
+    complements of the other two, are equal.
+    \end{proposition}
+    We have
+    \begin{enumerate}
+        \item $AD$, $EF$, and $BC$ are all parallel, and
+        \item $AB$, $HG$, and $DC$ are all parallel.
+    \end{enumerate}
+    Show
+    \begin{enumerate}
+        \item $AHKE$, $HDFK$, $EKGB$ and $KFCG$ are all parallelograms, and
+        \item the area of $EKGB$ is equal to the area of $HDFK$.
+    \end{enumerate}
+    \diagram{prop43.pdf}
+
+
+    \clearpage
+    \section{Proposition 44}
+    \begin{proposition}
+    To a given right line (AB) to apply a parallelogram which shall be equal to a given triangle (C), and have one of
+    its angles equal to a given angle (D).
+    \end{proposition}
+    Draw a paralellogram such that
+    \begin{enumerate}
+        \item one of its sides is $AB$,
+        \item it has an angle whose measure is equal to $\angle{D}$, and
+        \item its area is equal to the area of triangle $C$.
+    \end{enumerate}
+    \diagram{prop44.pdf}
+
+
+    \clearpage
+    \section{Proposition 45}
+    \begin{proposition}
+    To construct a parallelogram equal to a given rectilineal figure (ABCD), and having an angle equal to a given
+    rectilineal angle (X).
+    \end{proposition}
+    Draw a paralellogram such that
+    \begin{enumerate}
+        \item it has an angle whose measure is equal to $\angle{X}$, and
+        \item its area is equal to the area of quadrilateral $ABCD$.
+    \end{enumerate}
+    \diagram{prop45.pdf}
+
+
+    \clearpage
+    \section{Proposition 46}
+    \begin{proposition}
+    On a given right line (AB) to describe a square.
+    \end{proposition}
+    Draw a square that has $AB$ as one of its sides.
+    \diagram{prop46.pdf}
+
+
+    \clearpage
+    \section{Proposition 47 (Pythagorean Theorem)}
+    \begin{proposition}
+    In a right-angled triangle (ABC) the square on the hypotenuse (AB) is equal to the sum of the squares on the other two sides (AC, BC).
+    \end{proposition}
+    We have arrived at the crescendo of Book 1. This may be the most famous result in all of mathematics. There are hundreds of distinct proofs, 118 of which can be found on the wonderful website cut-the-knot.org\footnote{http://www.cut-the-knot.org/pythagoras/}.
+
+    Given $\angle{C}$ is a right angle, show $AC^2 + CB^2 = AB^2$.
+    \diagram{prop47.pdf}
+
+
+    \clearpage
+    \section{Proposition 48 (Pythagorean Theorem continued)}
+    \begin{proposition}
+    If the square on one side (AB) of a triangle be equal to the sum of the squares on the remaining sides (AC, CB),
+    the angle (C) opposite to that side is a right angle.
+    \end{proposition}
+    Given $AC^2 + CB^2 = AB^2$, show $\angle{C}$ is a right angle.
+    \diagram{prop48.pdf}
+
+
+\end{document}
